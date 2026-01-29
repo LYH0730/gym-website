@@ -20,7 +20,7 @@ i18n
     
     backend: {
       // 번역 파일의 경로
-      loadPath: '/locales/{{lng}}/translation.json',
+      loadPath: `${import.meta.env.BASE_URL}locales/{{lng}}/translation.json`,
     },
 
     react: {
