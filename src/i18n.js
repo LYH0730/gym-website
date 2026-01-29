@@ -25,7 +25,7 @@ i18n
 
     react: {
       // Suspense 사용 여부 (데이터 로딩 중 fallback UI)
-      useSuspense: false,
+      useSuspense: true,
     },
   });
 
