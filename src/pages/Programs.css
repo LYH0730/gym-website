@@ -1,0 +1,58 @@
+/* Reusing page-header style from About.css - for a larger project, this should be in a shared file */
+.page-header {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #1e1e1e;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.programs-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.program-item {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.program-item:hover {
+  transform: translateY(-10px);
+}
+
+.program-item-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.program-item-content {
+  padding: 1.5rem;
+}
+
+.program-item-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #00aaff;
+}
+
+.program-item-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+}

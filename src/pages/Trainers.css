@@ -1,0 +1,93 @@
+/* Reusing page-header style */
+.page-header {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #1e1e1e;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.trainers-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.trainers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+}
+
+.trainer-card {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.trainer-card:hover {
+  transform: translateY(-10px);
+}
+
+.trainer-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  border: 3px solid #00aaff;
+}
+
+.trainer-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.trainer-card .specialty {
+  font-size: 1rem;
+  color: #00aaff;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.trainer-card .bio {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.admin-controls {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+.admin-controls button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.admin-controls button:hover {
+  background-color: #0088cc;
+}
+
+.card-admin-actions {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #444;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}

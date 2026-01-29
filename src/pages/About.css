@@ -1,0 +1,84 @@
+.page-header {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #1e1e1e;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #00aaff;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.location-section {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.location-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #00aaff;
+}
+
+.map-info-card {
+  background-color: #2a2a2a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.gym-address, .gym-directions {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 1.5rem;
+  color: #ccc;
+}
+
+.gym-address {
+  font-weight: bold;
+  color: white;
+}

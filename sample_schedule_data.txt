@@ -1,0 +1,63 @@
+-- 기존 스케줄 데이터를 모두 삭제합니다.
+DELETE FROM public.schedules;
+
+-- 새로운 샘플 스케줄 데이터를 추가합니다.
+INSERT INTO public.schedules (day, time, class, duration, trainer_id)
+VALUES
+  -- Jane Doe (ID: 1) - Off on Thursday, Sunday
+  ('monday', '10:00 AM', 'Personal Training', '60 min', 1),
+  ('monday', '11:00 AM', 'Personal Training', '60 min', 1),
+  ('monday', '02:00 PM', 'Starting Strength', '75 min', 1),
+  ('monday', '04:00 PM', 'Personal Training', '60 min', 1),
+  ('tuesday', '09:00 AM', 'Personal Training', '60 min', 1),
+  ('tuesday', '11:00 AM', 'Deadlift Workshop', '90 min', 1),
+  ('tuesday', '01:00 PM', 'Personal Training', '60 min', 1),
+  ('wednesday', '10:00 AM', 'Personal Training', '60 min', 1),
+  ('wednesday', '02:00 PM', 'Personal Training', '60 min', 1),
+  ('wednesday', '04:00 PM', 'Personal Training', '60 min', 1),
+  ('wednesday', '06:00 PM', 'Powerlifting Club', '120 min', 1),
+  ('friday', '09:00 AM', 'Personal Training', '60 min', 1),
+  ('friday', '11:00 AM', 'Personal Training', '60 min', 1),
+  ('friday', '01:00 PM', 'Bench Press Clinic', '75 min', 1),
+  ('saturday', '10:00 AM', 'Personal Training', '60 min', 1),
+  ('saturday', '12:00 PM', 'Squat Masterclass', '90 min', 1),
+  ('saturday', '02:00 PM', 'Personal Training', '60 min', 1),
+
+  -- John Smith (ID: 2) - Off on Wednesday, Sunday
+  ('monday', '09:00 AM', 'Morning Flow Yoga', '60 min', 2),
+  ('monday', '11:00 AM', 'Private Session', '60 min', 2),
+  ('monday', '01:00 PM', 'Private Session', '60 min', 2),
+  ('tuesday', '10:00 AM', 'Private Session', '60 min', 2),
+  ('tuesday', '12:00 PM', 'Private Session', '60 min', 2),
+  ('tuesday', '03:00 PM', 'Yin Yoga', '75 min', 2),
+  ('tuesday', '05:00 PM', 'Private Session', '60 min', 2),
+  ('thursday', '09:00 AM', 'Private Session', '60 min', 2),
+  ('thursday', '11:00 AM', 'Private Session', '60 min', 2),
+  ('thursday', '02:00 PM', 'Private Session', '60 min', 2),
+  ('thursday', '06:00 PM', 'Hot Vinyasa', '90 min', 2),
+  ('friday', '10:00 AM', 'Private Session', '60 min', 2),
+  ('friday', '12:00 PM', 'Mindfulness & Meditation', '45 min', 2),
+  ('friday', '03:00 PM', 'Private Session', '60 min', 2),
+  ('saturday', '09:00 AM', 'Ashtanga Yoga', '90 min', 2),
+  ('saturday', '11:00 AM', 'Private Session', '60 min', 2),
+  ('saturday', '01:00 PM', 'Private Session', '60 min', 2),
+
+  -- Emily White (ID: 3) - Off on Tuesday, Sunday
+  ('monday', '08:00 AM', 'HIIT Blast', '45 min', 3),
+  ('monday', '10:00 AM', 'Personal Training', '60 min', 3),
+  ('monday', '12:00 PM', 'Personal Training', '60 min', 3),
+  ('monday', '02:00 PM', 'Personal Training', '60 min', 3),
+  ('wednesday', '08:00 AM', 'Personal Training', '60 min', 3),
+  ('wednesday', '10:00 AM', 'Cycle & Core', '50 min', 3),
+  ('wednesday', '12:00 PM', 'Personal Training', '60 min', 3),
+  ('wednesday', '05:00 PM', 'Zumba Party', '50 min', 3),
+  ('thursday', '10:00 AM', 'Personal Training', '60 min', 3),
+  ('thursday', '12:00 PM', 'Personal Training', '60 min', 3),
+  ('thursday', '03:00 PM', 'Tabata Training', '45 min', 3),
+  ('friday', '08:00 AM', 'Bootcamp Circuit', '60 min', 3),
+  ('friday', '10:00 AM', 'Personal Training', '60 min', 3),
+  ('friday', '12:00 PM', 'Personal Training', '60 min', 3),
+  ('friday', '04:00 PM', 'Personal Training', '60 min', 3),
+  ('saturday', '10:00 AM', 'Weekend Warrior HIIT', '60 min', 3),
+  ('saturday', '12:00 PM', 'Personal Training', '60 min', 3),
+  ('saturday', '02:00 PM', 'Personal Training', '60 min', 3);

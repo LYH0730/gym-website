@@ -1,0 +1,26 @@
+{
+  "monday": [
+    { "time": "10:00 AM", "class": "CrossFit", "trainer": "John Smith", "duration": "60 min" },
+    { "time": "06:00 PM", "class": "Cycling Studio", "trainer": "Emily White", "duration": "45 min" }
+  ],
+  "tuesday": [
+    { "time": "09:00 AM", "class": "Group PT", "trainer": "Jane Doe", "duration": "60 min" },
+    { "time": "07:00 PM", "class": "Yoga & Flexibility", "trainer": "John Smith", "duration": "60 min" }
+  ],
+  "wednesday": [
+    { "time": "10:00 AM", "class": "Weight Lifting", "trainer": "Jane Doe", "duration": "90 min" },
+    { "time": "05:00 PM", "class": "CrossFit", "trainer": "Emily White", "duration": "60 min" }
+  ],
+  "thursday": [
+    { "time": "09:00 AM", "class": "Cycling Studio", "trainer": "Emily White", "duration": "45 min" },
+    { "time": "06:00 PM", "class": "Group HIIT", "trainer": "Jane Doe", "duration": "60 min" }
+  ],
+  "friday": [
+    { "time": "11:00 AM", "class": "Yoga & Flexibility", "trainer": "John Smith", "duration": "60 min" },
+    { "time": "04:00 PM", "class": "Personal Training", "trainer": "Jane Doe", "duration": "60 min" }
+  ],
+  "saturday": [
+    { "time": "10:00 AM", "class": "Open Gym", "trainer": "N/A", "duration": "120 min" }
+  ],
+  "sunday": []
+}

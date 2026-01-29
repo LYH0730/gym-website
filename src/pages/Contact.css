@@ -1,0 +1,94 @@
+/* Reusing page-header style */
+.page-header {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #1e1e1e;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.contact-info, .contact-form-container {
+  flex: 1;
+  min-width: 320px;
+}
+
+.contact-info h2, .contact-form-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #00aaff;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.contact-info .icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #00aaff;
+  width: 30px;
+  text-align: center;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #444;
+  background-color: #2a2a2a;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #00aaff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0088cc;
+}

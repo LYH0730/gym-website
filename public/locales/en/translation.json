@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "programs": "Programs",
+    "trainers": "Trainers",
+    "contact": "Contact",
+    "schedule": "Schedule"
+  },
+  "schedule": {
+    "header_subtitle": "Check out this week's class schedule.",
+    "time_header": "Time",
+    "day_monday": "Monday",
+    "day_tuesday": "Tuesday",
+    "day_wednesday": "Wednesday",
+    "day_thursday": "Thursday",
+    "day_friday": "Friday",
+    "day_saturday": "Saturday",
+    "day_sunday": "Sunday",
+    "schedule_for": "Schedule for",
+    "select_trainer": "Select a trainer to see their schedule.",
+    "back_to_list": "Back to Trainers"
+  },
+  "hero": {
+    "title": "UNLEASH YOUR POTENTIAL",
+    "subtitle": "State-of-the-art facilities, expert trainers, and a community that motivates.",
+    "cta": "Explore Programs"
+  },
+  "home_featured": {
+    "title": "Featured Programs",
+    "pt_title": "Personal Training",
+    "pt_desc": "One-on-one guidance to achieve your specific fitness goals.",
+    "group_title": "Group Fitness",
+    "group_desc": "Join our energetic group classes like Yoga, Zumba, and HIIT.",
+    "weight_title": "Weight Lifting",
+    "weight_desc": "Build strength and muscle with our top-tier equipment and space."
+  },
+  "home_cta": {
+    "title": "Ready to Start Your Journey?",
+    "subtitle": "Join a community that is passionate, determined, and supportive. Your fitness goals are within reach.",
+    "cta": "Become a Member"
+  },
+  "about_page": {
+    "header_title": "About GymFlex",
+    "header_subtitle": "Your journey to a healthier life starts here.",
+    "story_title": "Our Story",
+    "story_p1": "Founded in 2010, GymFlex was born from a simple idea: to create a fitness space that is more than just a gym. We wanted to build a community where people of all fitness levels feel welcome, supported, and motivated.",
+    "story_p2": "Over the years, we've grown from a small local studio to a state-of-the-art facility, but our core mission remains the same. We are dedicated to providing the best equipment, the most knowledgeable trainers, and a clean, inspiring environment.",
+    "location_title": "Our Location",
+    "address": "401-ho, 14, Yangjae-daero 141-gil, Gangdong-gu, Seoul (Hyoseung Building)",
+    "directions": "2 minutes walk from Myeongil Station Exit 1"
+  },
+  "programs_page": {
+    "header_title": "Our Programs",
+    "header_subtitle": "Find the perfect fit for your fitness journey.",
+    "program_list": [
+      {
+        "title": "Personal Training",
+        "description": "Tailored one-on-one sessions designed to help you achieve your personal fitness goals faster and more efficiently.",
+        "image": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?q=80&w=2671&auto=format&fit=crop"
+      },
+      {
+        "title": "Group HIIT",
+        "description": "High-intensity interval training in a motivating group setting. Burn calories, improve endurance, and have fun.",
+        "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=2670&auto=format&fit=crop"
+      },
+      {
+        "title": "Yoga & Flexibility",
+        "description": "Improve your balance, flexibility, and mindfulness with our yoga classes, suitable for all levels from beginner to advanced.",
+        "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2720&auto=format&fit=crop"
+      },
+      {
+        "title": "Weight Lifting",
+        "description": "Access our wide range of free weights and machines to build strength, increase muscle mass, and sculpt your body.",
+        "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2670&auto=format&fit=crop"
+      },
+      {
+        "title": "CrossFit",
+        "description": "A challenging mix of functional movements performed at high intensity. Join our strong and supportive CrossFit community.",
+        "image": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=2669&auto=format&fit=crop"
+      },
+      {
+        "title": "Cycling Studio",
+        "description": "Immersive indoor cycling classes with energetic instructors and heart-pumping music. A great cardio workout.",
+        "image": "https://images.unsplash.com/photo-1576678927484-cc907957088c?q=80&w=2671&auto=format&fit=crop"
+      }
+    ]
+  },
+  "trainers_page": {
+    "header_title": "Meet Our Team",
+    "header_subtitle": "World-class trainers dedicated to your success.",
+    "trainer_list": [
+      {
+        "name": "Jane Doe",
+        "specialty": "Strength & Conditioning",
+        "bio": "Jane is a certified strength and conditioning specialist with over 10 years of experience helping clients build power and resilience.",
+        "image": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=2574&auto=format&fit=crop"
+      },
+      {
+        "name": "John Smith",
+        "specialty": "Yoga & Mindfulness",
+        "bio": "A master of Vinyasa and Hatha yoga, John guides students toward physical and mental balance through mindful movement.",
+        "image": "https://images.unsplash.com/photo-1659412365125-f6e8e28803b1?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Emily White",
+        "specialty": "Cardio & HIIT",
+        "bio": "Emily brings infectious energy to every class, designing high-intensity workouts that are as fun as they are effective.",
+        "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2670&auto=format&fit=crop"
+      }
+    ]
+  },
+  "contact_page": {
+    "header_title": "Get In Touch",
+    "header_subtitle": "We're here to help and answer any question you might have.",
+    "info_title": "Contact Information",
+    "info_subtitle": "Fill up the form and our team will get back to you within 24 hours.",
+    "phone": "+82 010-9380-2850",
+    "email": "buzz3272@gmail.com",
+    "address": "401, Hyoseung Building, 14, Yangjae-daero 141-gil, Gangdong-gu, Seoul",
+    "form_title": "Send us a Message",
+    "form_name": "Full Name",
+    "form_email": "Email Address",
+    "form_subject": "Subject",
+    "form_message": "Message",
+    "form_cta": "Send Message"
+  },
+  "footer": {
+    "copyright": "© {{year}} GymFlex. All Rights Reserved."
+  },
+  "admin_login": {
+    "header_title": "Admin Login",
+    "header_subtitle": "Log in to manage schedules and content.",
+    "email_label": "Email",
+    "password_label": "Password",
+    "logging_in": "Logging in...",
+    "login_button": "Login",
+    "logout_button": "Logout"
+  },
+  "admin_schedule": {
+    "header_title": "Manage Schedule",
+    "header_subtitle": "Add, edit, or delete class schedule entries.",
+    "add_entry_button": "Add New Entry",
+    "day_header": "Day",
+    "class_header": "Class",
+    "trainer_header": "Trainer",
+    "duration_header": "Duration",
+    "actions_header": "Actions",
+    "edit_button": "Edit",
+    "delete_button": "Delete",
+    "confirm_delete": "Are you sure you want to delete this entry?",
+    "edit_entry_title": "Edit Schedule Entry",
+    "add_entry_title": "Add New Schedule Entry",
+    "day_label": "Day",
+    "time_label": "Time",
+    "class_label": "Class Name",
+    "trainer_label": "Trainer",
+    "duration_label": "Duration",
+    "save_button": "Save",
+    "cancel_button": "Cancel"
+  }
+
+}
